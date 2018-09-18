@@ -1,0 +1,38 @@
+body, html
+{
+	margin: 0;
+	height: 100%;
+}
+
+.bg
+{
+	background-image: url("images/botanic.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 50px;
+}
+
+.jumbotron {
+	background: none;
+}
+
+.center-content {
+	display: flex;
+	justify-content: center;
+}
+
+h1, p.lead, p {
+	text-align: center;
+	padding: 20px;
+}
+
+h1 {
+	font-family: 'Noto Serif JP', sans-serif;
+}
+
+.btn-dark:hover
+{
+	background-color: #b14150;
+}
